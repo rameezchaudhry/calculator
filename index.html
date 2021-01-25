@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="">
+</head>
+<body>
+    
+<div class="main">
+    <div class="display">
+        <input type="text" id="input_text" class="inputText" disabled>
+    </div>
+<div class="buttons">
+<div>
+    <button onclick="button('7')">7</button>
+    <button onclick="button('8')">8</button>
+    <button onclick="button('9')">9</button>
+    <button onclick="button('-')">-</button>
+</div>
+<div>
+    <button onclick="button('4')">4</button>
+    <button onclick="button('5')">5</button>
+    <button onclick="button('6')">6</button>
+    <button onclick="button('+');">+</button>
+</div>
+<div>
+    <button onclick="button('1')">1</button>
+    <button onclick="button('2')">2</button>
+    <button onclick="button('3')">3</button>
+    <button onclick="button('*')">x</button>
+</div>
+<div>
+    <button onclick="button('/')">/</button>
+    <button onclick="button('0')">0</button>
+    <button onclick="result()" style="border-color:orangered !important; background-color: orangered !important;">=</button>
+    <button onclick="inputClear()" style="border-color:chocolate !important; background-color: chocolate !important;">C</button>
+</div>
+
+
+</div>
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

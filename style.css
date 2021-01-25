@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.main
+{
+background-color: rgb(41, 39, 40);
+margin: auto;
+width: 210px;
+border-radius: 5px;
+box-shadow: 5px 8px 5px grey ;
+}                       
+.display{
+    width: 200px;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    border-radius: 5px;                                               
+    
+}
+.inputText
+{
+    
+outline:none;
+border: 2px solid rgb(38, 38, 41);
+width: 96%;
+font-size: 20pt;
+border-radius: 5px;
+background-color: rgb(199, 216, 169);
+color: floralwhite;
+}
+
+.buttons{
+text-align: center;
+}
+.buttons button{
+    
+    background-color: rgb(70, 68, 68) ;
+    border-radius:3px ;
+    width: 21%;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: honeydew;
+    font-size: 80%;
+    
+}
+
